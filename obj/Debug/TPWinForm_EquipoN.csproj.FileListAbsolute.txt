@@ -1,0 +1,11 @@
+C:\Users\Luciano\Desktop\Proyectos C#\TPWinForm_EquipoN\bin\Debug\TPWinForm_EquipoN.exe.config
+C:\Users\Luciano\Desktop\Proyectos C#\TPWinForm_EquipoN\bin\Debug\TPWinForm_EquipoN.exe
+C:\Users\Luciano\Desktop\Proyectos C#\TPWinForm_EquipoN\bin\Debug\TPWinForm_EquipoN.pdb
+C:\Users\Luciano\Desktop\Proyectos C#\TPWinForm_EquipoN\obj\Debug\TPWinForm_EquipoN.csproj.AssemblyReference.cache
+C:\Users\Luciano\Desktop\Proyectos C#\TPWinForm_EquipoN\obj\Debug\TPWinForm_EquipoN.Form1.resources
+C:\Users\Luciano\Desktop\Proyectos C#\TPWinForm_EquipoN\obj\Debug\TPWinForm_EquipoN.Properties.Resources.resources
+C:\Users\Luciano\Desktop\Proyectos C#\TPWinForm_EquipoN\obj\Debug\TPWinForm_EquipoN.csproj.GenerateResource.cache
+C:\Users\Luciano\Desktop\Proyectos C#\TPWinForm_EquipoN\obj\Debug\TPWinForm_EquipoN.csproj.CoreCompileInputs.cache
+C:\Users\Luciano\Desktop\Proyectos C#\TPWinForm_EquipoN\obj\Debug\TPWinForm_EquipoN.exe
+C:\Users\Luciano\Desktop\Proyectos C#\TPWinForm_EquipoN\obj\Debug\TPWinForm_EquipoN.pdb
+C:\Users\Luciano\Desktop\Proyectos C#\TPWinForm_EquipoN\obj\Debug\TPWinForm_EquipoN.MenuArticulos.resources
