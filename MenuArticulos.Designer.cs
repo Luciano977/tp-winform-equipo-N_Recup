@@ -28,127 +28,90 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.lbMenuArticulos = new System.Windows.Forms.Label();
-            this.btListArt = new System.Windows.Forms.Button();
-            this.btBusqArt = new System.Windows.Forms.Button();
-            this.btAgregarArticulos = new System.Windows.Forms.Button();
-            this.btModArt = new System.Windows.Forms.Button();
-            this.btEliminarArt = new System.Windows.Forms.Button();
-            this.btDetArt = new System.Windows.Forms.Button();
-            this.btSalir = new System.Windows.Forms.Button();
+            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
+            this.listarArticulosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.agregarArticulosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.busquedaYDetalleToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.modificarOEliminarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.salirToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
-            // lbMenuArticulos
+            // menuStrip1
             // 
-            this.lbMenuArticulos.AutoSize = true;
-            this.lbMenuArticulos.Font = new System.Drawing.Font("Microsoft YaHei UI", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbMenuArticulos.Location = new System.Drawing.Point(253, 25);
-            this.lbMenuArticulos.Name = "lbMenuArticulos";
-            this.lbMenuArticulos.Size = new System.Drawing.Size(274, 37);
-            this.lbMenuArticulos.TabIndex = 0;
-            this.lbMenuArticulos.Text = "Menu de Articulos";
+            this.menuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
+            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.listarArticulosToolStripMenuItem,
+            this.agregarArticulosToolStripMenuItem,
+            this.busquedaYDetalleToolStripMenuItem,
+            this.modificarOEliminarToolStripMenuItem,
+            this.salirToolStripMenuItem});
+            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
+            this.menuStrip1.Name = "menuStrip1";
+            this.menuStrip1.Size = new System.Drawing.Size(1051, 28);
+            this.menuStrip1.TabIndex = 8;
+            this.menuStrip1.Text = "menuStrip1";
             // 
-            // btListArt
+            // listarArticulosToolStripMenuItem
             // 
-            this.btListArt.Font = new System.Drawing.Font("Microsoft YaHei UI", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btListArt.Location = new System.Drawing.Point(121, 78);
-            this.btListArt.Name = "btListArt";
-            this.btListArt.Size = new System.Drawing.Size(210, 80);
-            this.btListArt.TabIndex = 1;
-            this.btListArt.Text = "Listar Articulos";
-            this.btListArt.UseVisualStyleBackColor = true;
+            this.listarArticulosToolStripMenuItem.Name = "listarArticulosToolStripMenuItem";
+            this.listarArticulosToolStripMenuItem.Size = new System.Drawing.Size(58, 24);
+            this.listarArticulosToolStripMenuItem.Text = "Listar";
+            this.listarArticulosToolStripMenuItem.Click += new System.EventHandler(this.listarArticulosToolStripMenuItem_Click);
             // 
-            // btBusqArt
+            // agregarArticulosToolStripMenuItem
             // 
-            this.btBusqArt.Font = new System.Drawing.Font("Microsoft YaHei UI", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btBusqArt.Location = new System.Drawing.Point(121, 190);
-            this.btBusqArt.Name = "btBusqArt";
-            this.btBusqArt.Size = new System.Drawing.Size(210, 80);
-            this.btBusqArt.TabIndex = 2;
-            this.btBusqArt.Text = "Busqueda de Articulos";
-            this.btBusqArt.UseVisualStyleBackColor = true;
+            this.agregarArticulosToolStripMenuItem.Name = "agregarArticulosToolStripMenuItem";
+            this.agregarArticulosToolStripMenuItem.Size = new System.Drawing.Size(77, 24);
+            this.agregarArticulosToolStripMenuItem.Text = "Agregar";
+            this.agregarArticulosToolStripMenuItem.Click += new System.EventHandler(this.agregarArticulosToolStripMenuItem_Click);
             // 
-            // btAgregarArticulos
+            // busquedaYDetalleToolStripMenuItem
             // 
-            this.btAgregarArticulos.Font = new System.Drawing.Font("Microsoft YaHei UI", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btAgregarArticulos.Location = new System.Drawing.Point(121, 307);
-            this.btAgregarArticulos.Name = "btAgregarArticulos";
-            this.btAgregarArticulos.Size = new System.Drawing.Size(210, 80);
-            this.btAgregarArticulos.TabIndex = 3;
-            this.btAgregarArticulos.Text = "Agregar Articulos";
-            this.btAgregarArticulos.UseVisualStyleBackColor = true;
+            this.busquedaYDetalleToolStripMenuItem.Name = "busquedaYDetalleToolStripMenuItem";
+            this.busquedaYDetalleToolStripMenuItem.Size = new System.Drawing.Size(151, 24);
+            this.busquedaYDetalleToolStripMenuItem.Text = "Busqueda y Detalle";
+            this.busquedaYDetalleToolStripMenuItem.Click += new System.EventHandler(this.busquedaYDetalleToolStripMenuItem_Click);
             // 
-            // btModArt
+            // modificarOEliminarToolStripMenuItem
             // 
-            this.btModArt.Font = new System.Drawing.Font("Microsoft YaHei UI", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btModArt.Location = new System.Drawing.Point(486, 78);
-            this.btModArt.Name = "btModArt";
-            this.btModArt.Size = new System.Drawing.Size(210, 80);
-            this.btModArt.TabIndex = 4;
-            this.btModArt.Text = "Modificar Articulos";
-            this.btModArt.UseVisualStyleBackColor = true;
+            this.modificarOEliminarToolStripMenuItem.Name = "modificarOEliminarToolStripMenuItem";
+            this.modificarOEliminarToolStripMenuItem.Size = new System.Drawing.Size(158, 24);
+            this.modificarOEliminarToolStripMenuItem.Text = "Modificar o Eliminar";
+            this.modificarOEliminarToolStripMenuItem.Click += new System.EventHandler(this.modificarOEliminarToolStripMenuItem_Click);
             // 
-            // btEliminarArt
+            // salirToolStripMenuItem
             // 
-            this.btEliminarArt.Font = new System.Drawing.Font("Microsoft YaHei UI", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btEliminarArt.Location = new System.Drawing.Point(486, 190);
-            this.btEliminarArt.Name = "btEliminarArt";
-            this.btEliminarArt.Size = new System.Drawing.Size(210, 80);
-            this.btEliminarArt.TabIndex = 5;
-            this.btEliminarArt.Text = "Eliminar Articulos";
-            this.btEliminarArt.UseVisualStyleBackColor = true;
-            // 
-            // btDetArt
-            // 
-            this.btDetArt.Font = new System.Drawing.Font("Microsoft YaHei UI", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btDetArt.Location = new System.Drawing.Point(486, 307);
-            this.btDetArt.Name = "btDetArt";
-            this.btDetArt.Size = new System.Drawing.Size(210, 80);
-            this.btDetArt.TabIndex = 6;
-            this.btDetArt.Text = "Detalles de Articulos";
-            this.btDetArt.UseVisualStyleBackColor = true;
-            // 
-            // btSalir
-            // 
-            this.btSalir.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btSalir.Location = new System.Drawing.Point(584, 429);
-            this.btSalir.Name = "btSalir";
-            this.btSalir.Size = new System.Drawing.Size(112, 42);
-            this.btSalir.TabIndex = 7;
-            this.btSalir.Text = "Salir";
-            this.btSalir.UseVisualStyleBackColor = true;
-            this.btSalir.Click += new System.EventHandler(this.btSalir_Click);
+            this.salirToolStripMenuItem.Name = "salirToolStripMenuItem";
+            this.salirToolStripMenuItem.Size = new System.Drawing.Size(52, 24);
+            this.salirToolStripMenuItem.Text = "Salir";
+            this.salirToolStripMenuItem.Click += new System.EventHandler(this.salirToolStripMenuItem_Click);
             // 
             // MenuArticulos
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(818, 483);
-            this.Controls.Add(this.btSalir);
-            this.Controls.Add(this.btDetArt);
-            this.Controls.Add(this.btEliminarArt);
-            this.Controls.Add(this.btModArt);
-            this.Controls.Add(this.btAgregarArticulos);
-            this.Controls.Add(this.btBusqArt);
-            this.Controls.Add(this.btListArt);
-            this.Controls.Add(this.lbMenuArticulos);
+            this.ClientSize = new System.Drawing.Size(1051, 588);
+            this.Controls.Add(this.menuStrip1);
+            this.IsMdiContainer = true;
+            this.MainMenuStrip = this.menuStrip1;
             this.Name = "MenuArticulos";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Articulos";
-            this.Load += new System.EventHandler(this.Articulos_Load);
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            this.menuStrip1.ResumeLayout(false);
+            this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
         }
 
         #endregion
-
-        private System.Windows.Forms.Label lbMenuArticulos;
-        private System.Windows.Forms.Button btListArt;
-        private System.Windows.Forms.Button btBusqArt;
-        private System.Windows.Forms.Button btAgregarArticulos;
-        private System.Windows.Forms.Button btModArt;
-        private System.Windows.Forms.Button btEliminarArt;
-        private System.Windows.Forms.Button btDetArt;
-        private System.Windows.Forms.Button btSalir;
+        private System.Windows.Forms.MenuStrip menuStrip1;
+        private System.Windows.Forms.ToolStripMenuItem listarArticulosToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem agregarArticulosToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem busquedaYDetalleToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem modificarOEliminarToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem salirToolStripMenuItem;
     }
 }

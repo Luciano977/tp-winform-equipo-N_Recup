@@ -33,7 +33,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="System" />
+    <Reference Include="System">
+      <HintPath>..\..\..\..\..\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.dll</HintPath>
+    </Reference>
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -46,10 +48,36 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Articulos.cs" />
-    <Compile Include="Categorias.cs" />
-    <Compile Include="Imagenes.cs" />
-    <Compile Include="Marcas.cs" />
+    <Compile Include="ArtAgregar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ArtAgregar.Designer.cs">
+      <DependentUpon>ArtAgregar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ArtBusDet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ArtBusDet.Designer.cs">
+      <DependentUpon>ArtBusDet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ArtModElim.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ArtModElim.Designer.cs">
+      <DependentUpon>ArtModElim.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmCategorias.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmCategorias.Designer.cs">
+      <DependentUpon>FrmCategorias.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmMarcas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMarcas.Designer.cs">
+      <DependentUpon>FrmMarcas.cs</DependentUpon>
+    </Compile>
     <Compile Include="MenuArticulos.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -62,13 +90,34 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="ArtListar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ArtListar.Designer.cs">
+      <DependentUpon>ArtListar.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="ArtAgregar.resx">
+      <DependentUpon>ArtAgregar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ArtBusDet.resx">
+      <DependentUpon>ArtBusDet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ArtModElim.resx">
+      <DependentUpon>ArtModElim.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMarcas.resx">
+      <DependentUpon>FrmMarcas.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="MenuArticulos.resx">
       <DependentUpon>MenuArticulos.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ArtListar.resx">
+      <DependentUpon>ArtListar.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -91,6 +140,16 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Dominio\Dominio.csproj">
+      <Project>{f5af5d03-9343-4a8d-8ac1-9eafa039d9c1}</Project>
+      <Name>Dominio</Name>
+    </ProjectReference>
+    <ProjectReference Include="Negocio\negocio.csproj">
+      <Project>{cf8b1cbe-3861-4ecf-87b4-ce701d3ba8ad}</Project>
+      <Name>negocio</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

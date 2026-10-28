@@ -61,7 +61,7 @@
             this.btArticulos.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btArticulos.Location = new System.Drawing.Point(85, 193);
             this.btArticulos.Name = "btArticulos";
-            this.btArticulos.Size = new System.Drawing.Size(150, 60);
+            this.btArticulos.Size = new System.Drawing.Size(150, 72);
             this.btArticulos.TabIndex = 2;
             this.btArticulos.Text = "Articulos";
             this.btArticulos.UseVisualStyleBackColor = true;
@@ -72,20 +72,22 @@
             this.btMarcas.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btMarcas.Location = new System.Drawing.Point(316, 193);
             this.btMarcas.Name = "btMarcas";
-            this.btMarcas.Size = new System.Drawing.Size(150, 60);
+            this.btMarcas.Size = new System.Drawing.Size(150, 65);
             this.btMarcas.TabIndex = 3;
             this.btMarcas.Text = "Marcas";
             this.btMarcas.UseVisualStyleBackColor = true;
+            this.btMarcas.Click += new System.EventHandler(this.btMarcas_Click);
             // 
             // btCategorias
             // 
             this.btCategorias.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btCategorias.Location = new System.Drawing.Point(585, 193);
             this.btCategorias.Name = "btCategorias";
-            this.btCategorias.Size = new System.Drawing.Size(150, 60);
+            this.btCategorias.Size = new System.Drawing.Size(150, 65);
             this.btCategorias.TabIndex = 4;
             this.btCategorias.Text = "Categorias";
             this.btCategorias.UseVisualStyleBackColor = true;
+            this.btCategorias.Click += new System.EventHandler(this.btCategorias_Click);
             // 
             // btSalir
             // 
@@ -102,14 +104,16 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(802, 449);
             this.Controls.Add(this.btSalir);
             this.Controls.Add(this.btCategorias);
             this.Controls.Add(this.btMarcas);
             this.Controls.Add(this.btArticulos);
             this.Controls.Add(this.lbMenuPrincipal);
             this.Controls.Add(this.lbSistGest);
+            this.MinimumSize = new System.Drawing.Size(820, 496);
             this.Name = "Form1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);

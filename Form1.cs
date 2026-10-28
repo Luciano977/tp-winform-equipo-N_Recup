@@ -7,6 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using dominio;
+
 
 namespace TPWinForm_EquipoN
 {
@@ -31,6 +33,18 @@ namespace TPWinForm_EquipoN
         private void btSalir_Click(object sender, EventArgs e)
         {
             Application.Exit();
+        }
+
+        private void btMarcas_Click(object sender, EventArgs e)
+        {
+            FrmMarcas ventana = new FrmMarcas();
+            ventana.ShowDialog();
+        }
+
+        private void btCategorias_Click(object sender, EventArgs e)
+        {
+            FrmCategorias ventana = new FrmCategorias();
+            ventana.ShowDialog();
         }
     }
 }

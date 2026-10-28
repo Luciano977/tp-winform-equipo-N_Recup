@@ -4,20 +4,23 @@ using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using System.Windows.Forms;
 
-namespace TPWinForm_EquipoN
+namespace dominio
 {
-    internal class Marcas
+    public class Categoria
     {
-        /*CREATE TABLE[dbo].[MARCAS]
+        /*
+        CREATE TABLE[dbo].[CATEGORIAS]
         (
             [Id][int] IDENTITY(1,1) NOT NULL,
             [Descripcion] [varchar] (50) NULL,
-             CONSTRAINT[PK_MARCAS] PRIMARY KEY CLUSTERED
-        (*/
-
+             CONSTRAINT[PK_CATEGORIAS] PRIMARY KEY CLUSTERED
+        */
         public int Id { get; set; }
         public string Descripcion { get; set; }
+        public override string ToString()
+        {
+            return Descripcion;
+        }
     }
 }

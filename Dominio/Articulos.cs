@@ -4,11 +4,11 @@ using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using System.Windows.Forms;
+//using System.Windows.Forms;
 
-namespace TPWinForm_EquipoN
+namespace dominio
 {
-    internal class Articulos
+    public class Articulos
     {
         /*
          CREATE TABLE[dbo].[ARTICULOS]
@@ -29,6 +29,8 @@ namespace TPWinForm_EquipoN
         public int IdMarca { get; set; }
         public int IdCategoria { get; set; }
         public decimal Precio { get; set; }
+        public Marcas DescMarca { get; set; }
+        public Categoria DescCategoria { get; set; }
 
     }
 }

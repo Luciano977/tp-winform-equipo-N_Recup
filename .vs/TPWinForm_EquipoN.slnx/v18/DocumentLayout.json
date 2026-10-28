@@ -3,20 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\Luciano\\Desktop\\Proyectos C#\\TPWinForm_EquipoN\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5AF3C873-94DC-4FAF-9C8A-40B4388A3D70}|TPWinForm_EquipoN.csproj|c:\\users\\luciano\\desktop\\proyectos c#\\tpwinform_equipon\\menuarticulos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5AF3C873-94DC-4FAF-9C8A-40B4388A3D70}|TPWinForm_EquipoN.csproj|solutionrelative:menuarticulos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5AF3C873-94DC-4FAF-9C8A-40B4388A3D70}|TPWinForm_EquipoN.csproj|c:\\users\\luciano\\desktop\\proyectos c#\\tpwinform_equipon\\artmodelim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5AF3C873-94DC-4FAF-9C8A-40B4388A3D70}|TPWinForm_EquipoN.csproj|solutionrelative:artmodelim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5AF3C873-94DC-4FAF-9C8A-40B4388A3D70}|TPWinForm_EquipoN.csproj|c:\\users\\luciano\\desktop\\proyectos c#\\tpwinform_equipon\\menuarticulos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{5AF3C873-94DC-4FAF-9C8A-40B4388A3D70}|TPWinForm_EquipoN.csproj|solutionrelative:menuarticulos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5AF3C873-94DC-4FAF-9C8A-40B4388A3D70}|TPWinForm_EquipoN.csproj|c:\\users\\luciano\\desktop\\proyectos c#\\tpwinform_equipon\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5AF3C873-94DC-4FAF-9C8A-40B4388A3D70}|TPWinForm_EquipoN.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5AF3C873-94DC-4FAF-9C8A-40B4388A3D70}|TPWinForm_EquipoN.csproj|c:\\users\\luciano\\desktop\\proyectos c#\\tpwinform_equipon\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{5AF3C873-94DC-4FAF-9C8A-40B4388A3D70}|TPWinForm_EquipoN.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{5AF3C873-94DC-4FAF-9C8A-40B4388A3D70}|TPWinForm_EquipoN.csproj|c:\\users\\luciano\\desktop\\proyectos c#\\tpwinform_equipon\\artmodelim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{5AF3C873-94DC-4FAF-9C8A-40B4388A3D70}|TPWinForm_EquipoN.csproj|solutionrelative:artmodelim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,53 +30,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Users\\Luciano\\Desktop\\Proyectos C#\\TPWinForm_EquipoN\\Form1.cs",
-              "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "C:\\Users\\Luciano\\Desktop\\Proyectos C#\\TPWinForm_EquipoN\\Form1.cs",
-              "RelativeToolTip": "Form1.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAApwCAAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-17T22:58:13.07Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "MenuArticulos.cs",
-              "DocumentMoniker": "C:\\Users\\Luciano\\Desktop\\Proyectos C#\\TPWinForm_EquipoN\\MenuArticulos.cs",
-              "RelativeDocumentMoniker": "MenuArticulos.cs",
-              "ToolTip": "C:\\Users\\Luciano\\Desktop\\Proyectos C#\\TPWinForm_EquipoN\\MenuArticulos.cs",
-              "RelativeToolTip": "MenuArticulos.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAIAwwBoAAAAZAAAAAAAAAA==",
+              "Title": "ArtModElim.cs",
+              "DocumentMoniker": "C:\\Users\\Luciano\\Desktop\\Proyectos C#\\TPWinForm_EquipoN\\ArtModElim.cs",
+              "RelativeDocumentMoniker": "ArtModElim.cs",
+              "ToolTip": "C:\\Users\\Luciano\\Desktop\\Proyectos C#\\TPWinForm_EquipoN\\ArtModElim.cs",
+              "RelativeToolTip": "ArtModElim.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAA1wAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-17T22:32:04.248Z",
+              "WhenOpened": "2026-10-27T16:55:06.642Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "MenuArticulos.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Luciano\\Desktop\\Proyectos C#\\TPWinForm_EquipoN\\MenuArticulos.cs",
-              "RelativeDocumentMoniker": "MenuArticulos.cs",
-              "ToolTip": "C:\\Users\\Luciano\\Desktop\\Proyectos C#\\TPWinForm_EquipoN\\MenuArticulos.cs [Dise\u00F1o]",
-              "RelativeToolTip": "MenuArticulos.cs [Dise\u00F1o]",
+              "Title": "ArtModElim.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Luciano\\Desktop\\Proyectos C#\\TPWinForm_EquipoN\\ArtModElim.cs",
+              "RelativeDocumentMoniker": "ArtModElim.cs",
+              "ToolTip": "C:\\Users\\Luciano\\Desktop\\Proyectos C#\\TPWinForm_EquipoN\\ArtModElim.cs [Design]",
+              "RelativeToolTip": "ArtModElim.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-17T22:06:46.069Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Form1.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Luciano\\Desktop\\Proyectos C#\\TPWinForm_EquipoN\\Form1.cs",
-              "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "C:\\Users\\Luciano\\Desktop\\Proyectos C#\\TPWinForm_EquipoN\\Form1.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Form1.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-17T22:01:51.798Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2026-10-27T16:55:01.872Z",
+              "EditorCaption": " [Design]"
             }
           ]
         }

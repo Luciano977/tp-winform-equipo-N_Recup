@@ -1,0 +1,9 @@
+C:\Users\Luciano\Desktop\Proyectos C#\TPWinForm_EquipoN\Negocio\bin\Debug\negocio.dll
+C:\Users\Luciano\Desktop\Proyectos C#\TPWinForm_EquipoN\Negocio\bin\Debug\negocio.pdb
+C:\Users\Luciano\Desktop\Proyectos C#\TPWinForm_EquipoN\Negocio\bin\Debug\dominio.dll
+C:\Users\Luciano\Desktop\Proyectos C#\TPWinForm_EquipoN\Negocio\bin\Debug\dominio.pdb
+C:\Users\Luciano\Desktop\Proyectos C#\TPWinForm_EquipoN\Negocio\obj\Debug\negocio.csproj.AssemblyReference.cache
+C:\Users\Luciano\Desktop\Proyectos C#\TPWinForm_EquipoN\Negocio\obj\Debug\negocio.csproj.CoreCompileInputs.cache
+C:\Users\Luciano\Desktop\Proyectos C#\TPWinForm_EquipoN\Negocio\obj\Debug\negocio.csproj.Up2Date
+C:\Users\Luciano\Desktop\Proyectos C#\TPWinForm_EquipoN\Negocio\obj\Debug\negocio.dll
+C:\Users\Luciano\Desktop\Proyectos C#\TPWinForm_EquipoN\Negocio\obj\Debug\negocio.pdb
