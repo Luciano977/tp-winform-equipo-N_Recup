@@ -33,6 +33,9 @@ namespace TPWinForm_EquipoN
         {
             ArticulosNegocio negocio = new ArticulosNegocio();
             dgvArticulos.DataSource = negocio.listar();
+            dgvArticulos.Columns["Id"].Visible = false;
+            dgvArticulos.Columns["IdMarca"].Visible = false;
+            dgvArticulos.Columns["IdCategoria"].Visible = false;
         }
 
         private void btModificar_Click(object sender, EventArgs e)

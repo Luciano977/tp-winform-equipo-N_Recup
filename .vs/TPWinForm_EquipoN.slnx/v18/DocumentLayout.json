@@ -1,14 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Luciano\\Desktop\\Proyectos C#\\TPWinForm_EquipoN\\",
+  "WorkspaceRootPath": "C:\\Users\\Luciano\\Documents\\Tecnicatura en Programaci\u00F3n\\Segundo a\u00F1o\\09. Programacion III\\Proyectos C#\\TP-winform-equipoN\\tp-winform-equipo-N_Recup\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5AF3C873-94DC-4FAF-9C8A-40B4388A3D70}|TPWinForm_EquipoN.csproj|c:\\users\\luciano\\desktop\\proyectos c#\\tpwinform_equipon\\artmodelim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5AF3C873-94DC-4FAF-9C8A-40B4388A3D70}|TPWinForm_EquipoN.csproj|solutionrelative:artmodelim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5AF3C873-94DC-4FAF-9C8A-40B4388A3D70}|TPWinForm_EquipoN.csproj|c:\\users\\luciano\\documents\\tecnicatura en programaci\u00F3n\\segundo a\u00F1o\\09. programacion iii\\proyectos c#\\tp-winform-equipon\\tp-winform-equipo-n_recup\\artlistar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5AF3C873-94DC-4FAF-9C8A-40B4388A3D70}|TPWinForm_EquipoN.csproj|solutionrelative:artlistar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5AF3C873-94DC-4FAF-9C8A-40B4388A3D70}|TPWinForm_EquipoN.csproj|c:\\users\\luciano\\desktop\\proyectos c#\\tpwinform_equipon\\artmodelim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{5AF3C873-94DC-4FAF-9C8A-40B4388A3D70}|TPWinForm_EquipoN.csproj|solutionrelative:artmodelim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{5AF3C873-94DC-4FAF-9C8A-40B4388A3D70}|TPWinForm_EquipoN.csproj|c:\\users\\luciano\\documents\\tecnicatura en programaci\u00F3n\\segundo a\u00F1o\\09. programacion iii\\proyectos c#\\tp-winform-equipon\\tp-winform-equipo-n_recup\\artagregar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5AF3C873-94DC-4FAF-9C8A-40B4388A3D70}|TPWinForm_EquipoN.csproj|solutionrelative:artagregar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,40 +18,33 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ArtModElim.cs",
-              "DocumentMoniker": "C:\\Users\\Luciano\\Desktop\\Proyectos C#\\TPWinForm_EquipoN\\ArtModElim.cs",
-              "RelativeDocumentMoniker": "ArtModElim.cs",
-              "ToolTip": "C:\\Users\\Luciano\\Desktop\\Proyectos C#\\TPWinForm_EquipoN\\ArtModElim.cs",
-              "RelativeToolTip": "ArtModElim.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAA1wAAAAAAAAAAAAAAAAA==",
+              "Title": "ArtListar.cs",
+              "DocumentMoniker": "C:\\Users\\Luciano\\Documents\\Tecnicatura en Programaci\u00F3n\\Segundo a\u00F1o\\09. Programacion III\\Proyectos C#\\TP-winform-equipoN\\tp-winform-equipo-N_Recup\\ArtListar.cs",
+              "RelativeDocumentMoniker": "ArtListar.cs",
+              "ToolTip": "C:\\Users\\Luciano\\Documents\\Tecnicatura en Programaci\u00F3n\\Segundo a\u00F1o\\09. Programacion III\\Proyectos C#\\TP-winform-equipoN\\tp-winform-equipo-N_Recup\\ArtListar.cs",
+              "RelativeToolTip": "ArtListar.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAgwBoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-27T16:55:06.642Z",
+              "WhenOpened": "2026-10-29T00:03:05.777Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ArtModElim.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Luciano\\Desktop\\Proyectos C#\\TPWinForm_EquipoN\\ArtModElim.cs",
-              "RelativeDocumentMoniker": "ArtModElim.cs",
-              "ToolTip": "C:\\Users\\Luciano\\Desktop\\Proyectos C#\\TPWinForm_EquipoN\\ArtModElim.cs [Design]",
-              "RelativeToolTip": "ArtModElim.cs [Design]",
+              "Title": "ArtAgregar.cs",
+              "DocumentMoniker": "C:\\Users\\Luciano\\Documents\\Tecnicatura en Programaci\u00F3n\\Segundo a\u00F1o\\09. Programacion III\\Proyectos C#\\TP-winform-equipoN\\tp-winform-equipo-N_Recup\\ArtAgregar.cs",
+              "RelativeDocumentMoniker": "ArtAgregar.cs",
+              "ToolTip": "C:\\Users\\Luciano\\Documents\\Tecnicatura en Programaci\u00F3n\\Segundo a\u00F1o\\09. Programacion III\\Proyectos C#\\TP-winform-equipoN\\tp-winform-equipo-N_Recup\\ArtAgregar.cs",
+              "RelativeToolTip": "ArtAgregar.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-27T16:55:01.872Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2026-10-28T23:54:22.376Z",
+              "EditorCaption": ""
             }
           ]
         }
