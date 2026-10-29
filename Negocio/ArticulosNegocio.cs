@@ -24,7 +24,7 @@ namespace negocio
 
             try
             {
-                conexion.ConnectionString = "server = (localdb)\\MSSQLLocalDB; database = CATALOGO_P3_DB; integrated security = true";
+                conexion.ConnectionString = @"Server=.\SQLEXPRESS;Database=CATALOGO_P3_DB;Integrated Security=True;";
                 comando.CommandType = System.Data.CommandType.Text;
                 comando.CommandText = "select A.Codigo, A.Nombre, A.Descripcion, M.Descripcion AS Marca, C.Descripcion as Categoria, A.Precio from ARTICULOS A INNER JOIN MARCAS M ON A.IdMarca = M.Id INNER JOIN CATEGORIAS C ON A.IdCategoria = C.Id;";// la consulta que hago a la base de datos
                 comando.Connection = conexion;

@@ -16,8 +16,10 @@ namespace negocio
         }
 
         public AccesoDatos()
-        {   //configuracion de la cadena de conexion
-            conexion = new SqlConnection("server=(localdb)\\MSSQLLocalDB; database=CATALOGO_P3_DB; integrated security=true");
+        {
+            conexion = new SqlConnection(
+                @"Server=.\SQLEXPRESS;Database=CATALOGO_P3_DB;Integrated Security=True;");
+
             comando = new SqlCommand();
         }
 

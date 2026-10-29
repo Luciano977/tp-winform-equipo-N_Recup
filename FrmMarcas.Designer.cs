@@ -68,6 +68,7 @@
             this.txtDescripcion.Name = "txtDescripcion";
             this.txtDescripcion.Size = new System.Drawing.Size(169, 20);
             this.txtDescripcion.TabIndex = 2;
+            this.txtDescripcion.Click += new System.EventHandler(this.lblDescripcion_Click);
             this.txtDescripcion.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // btnAgregar
@@ -79,6 +80,7 @@
             this.btnAgregar.TabIndex = 3;
             this.btnAgregar.Text = "Agregar";
             this.btnAgregar.UseVisualStyleBackColor = true;
+            this.btnAgregar.Click += new System.EventHandler(this.btnAgregar_Click);
             // 
             // btnModificar
             // 
@@ -89,6 +91,7 @@
             this.btnModificar.TabIndex = 4;
             this.btnModificar.Text = "Modificar";
             this.btnModificar.UseVisualStyleBackColor = true;
+            this.btnModificar.Click += new System.EventHandler(this.btnModificar_Click);
             // 
             // btnEliminar
             // 
@@ -99,20 +102,27 @@
             this.btnEliminar.TabIndex = 5;
             this.btnEliminar.Text = "Eliminar";
             this.btnEliminar.UseVisualStyleBackColor = true;
+            this.btnEliminar.Click += new System.EventHandler(this.btnEliminar_Click);
             // 
             // dgvMarcas
             // 
             this.dgvMarcas.AllowUserToAddRows = false;
+            this.dgvMarcas.AllowUserToDeleteRows = false;
+            this.dgvMarcas.AllowUserToResizeRows = false;
             this.dgvMarcas.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.dgvMarcas.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells;
+            this.dgvMarcas.BackgroundColor = System.Drawing.Color.White;
             this.dgvMarcas.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvMarcas.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.columId,
             this.ColDescripcion});
-            this.dgvMarcas.Location = new System.Drawing.Point(133, 228);
+            this.dgvMarcas.Location = new System.Drawing.Point(133, 233);
             this.dgvMarcas.Name = "dgvMarcas";
             this.dgvMarcas.ReadOnly = true;
+            this.dgvMarcas.RowHeadersVisible = false;
+            this.dgvMarcas.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
             this.dgvMarcas.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dgvMarcas.Size = new System.Drawing.Size(506, 210);
+            this.dgvMarcas.Size = new System.Drawing.Size(506, 138);
             this.dgvMarcas.TabIndex = 6;
             this.dgvMarcas.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvMarcas_CellContentClick);
             this.dgvMarcas.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvMarcas_CellContentClick);
@@ -131,14 +141,14 @@
             // columId
             // 
             this.columId.FillWeight = 30.45685F;
-            this.columId.HeaderText = "ID";
+            this.columId.HeaderText = "Código";
             this.columId.Name = "columId";
             this.columId.ReadOnly = true;
             // 
             // ColDescripcion
             // 
             this.ColDescripcion.FillWeight = 169.5432F;
-            this.ColDescripcion.HeaderText = "Descripcion";
+            this.ColDescripcion.HeaderText = "Descripción";
             this.ColDescripcion.Name = "ColDescripcion";
             this.ColDescripcion.ReadOnly = true;
             // 
@@ -155,7 +165,7 @@
             this.Controls.Add(this.txtDescripcion);
             this.Controls.Add(this.lblDescripcion);
             this.Controls.Add(this.label1);
-            this.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.Cursor = System.Windows.Forms.Cursors.Default;
             this.ForeColor = System.Drawing.Color.Black;
             this.Name = "FrmMarcas";
             this.Text = "Administrar Marcas";
