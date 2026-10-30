@@ -66,6 +66,12 @@
     <Compile Include="ArtModElim.Designer.cs">
       <DependentUpon>ArtModElim.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmAltaCategoria.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAltaCategoria.Designer.cs">
+      <DependentUpon>frmAltaCategoria.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmCategorias.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -106,6 +112,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="ArtModElim.resx">
       <DependentUpon>ArtModElim.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAltaCategoria.resx">
+      <DependentUpon>frmAltaCategoria.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmMarcas.resx">
       <DependentUpon>FrmMarcas.cs</DependentUpon>

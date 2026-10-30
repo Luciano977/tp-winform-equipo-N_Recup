@@ -59,6 +59,7 @@
             this.label2.Size = new System.Drawing.Size(40, 13);
             this.label2.TabIndex = 1;
             this.label2.Text = "Buscar";
+            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // txtBuscar
             // 
@@ -68,6 +69,7 @@
             this.txtBuscar.Name = "txtBuscar";
             this.txtBuscar.Size = new System.Drawing.Size(225, 20);
             this.txtBuscar.TabIndex = 2;
+            this.txtBuscar.TextChanged += new System.EventHandler(this.txtBuscar_TextChanged);
             // 
             // dgvCategorias
             // 
@@ -84,6 +86,7 @@
             this.dgvCategorias.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dgvCategorias.Size = new System.Drawing.Size(225, 309);
             this.dgvCategorias.TabIndex = 3;
+            this.dgvCategorias.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvCategorias_CellContentClick);
             // 
             // btnAgregar
             // 
