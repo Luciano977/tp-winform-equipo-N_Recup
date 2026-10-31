@@ -26,7 +26,7 @@ namespace TPWinForm_EquipoN
 
         private void btArticulos_Click(object sender, EventArgs e)
         {
-            MenuArticulos ventana = new MenuArticulos();
+            FrmArticulos ventana = new FrmArticulos();
             ventana.ShowDialog();
         }
 

@@ -1,4 +1,6 @@
-﻿using System;
+﻿using dominio;
+using negocio;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -7,8 +9,6 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using dominio;
-using negocio;
 
 namespace TPWinForm_EquipoN
 {
@@ -54,11 +54,11 @@ namespace TPWinForm_EquipoN
                 MessageBox.Show("Seleccioná una categoría de la lista primero.");
                 return;
             }
-
+            
             Categoria categoriaSeleccionada = (Categoria)dgvCategorias.SelectedRows[0].DataBoundItem;
             frmAltaCategoria ventana = new frmAltaCategoria(categoriaSeleccionada);
             ventana.ShowDialog();
-
+            
             CargarGrilla();
         }
 
@@ -97,4 +97,5 @@ namespace TPWinForm_EquipoN
 
         }
     }
+    
 }

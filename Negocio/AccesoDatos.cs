@@ -17,9 +17,7 @@ namespace negocio
 
         public AccesoDatos()
         {
-            conexion = new SqlConnection(
-                @"Server=.\SQLEXPRESS;Database=CATALOGO_P3_DB;Integrated Security=True;");
-
+            conexion = new SqlConnection(@"Server=(localdb)\MSSQLLocalDB;Database=CATALOGO_P3_DB;Integrated Security=True;");
             comando = new SqlCommand();
         }
 

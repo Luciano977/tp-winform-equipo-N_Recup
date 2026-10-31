@@ -48,29 +48,29 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ArtAgregar.cs">
+    <Compile Include="FrmAltaArticulo.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ArtAgregar.Designer.cs">
-      <DependentUpon>ArtAgregar.cs</DependentUpon>
-    </Compile>
-    <Compile Include="ArtBusDet.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="ArtBusDet.Designer.cs">
-      <DependentUpon>ArtBusDet.cs</DependentUpon>
-    </Compile>
-    <Compile Include="ArtModElim.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="ArtModElim.Designer.cs">
-      <DependentUpon>ArtModElim.cs</DependentUpon>
+    <Compile Include="FrmAltaArticulo.Designer.cs">
+      <DependentUpon>FrmAltaArticulo.cs</DependentUpon>
     </Compile>
     <Compile Include="frmAltaCategoria.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="frmAltaCategoria.Designer.cs">
       <DependentUpon>frmAltaCategoria.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmBuscarArticulo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmBuscarArticulo.Designer.cs">
+      <DependentUpon>FrmBuscarArticulo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmArticulos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmArticulos.Designer.cs">
+      <DependentUpon>FrmArticulos.cs</DependentUpon>
     </Compile>
     <Compile Include="FrmCategorias.cs">
       <SubType>Form</SubType>
@@ -84,49 +84,31 @@
     <Compile Include="FrmMarcas.Designer.cs">
       <DependentUpon>FrmMarcas.cs</DependentUpon>
     </Compile>
-    <Compile Include="MenuArticulos.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="MenuArticulos.Designer.cs">
-      <DependentUpon>MenuArticulos.cs</DependentUpon>
-    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="ArtListar.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="ArtListar.Designer.cs">
-      <DependentUpon>ArtListar.cs</DependentUpon>
-    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="ArtAgregar.resx">
-      <DependentUpon>ArtAgregar.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="ArtBusDet.resx">
-      <DependentUpon>ArtBusDet.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="ArtModElim.resx">
-      <DependentUpon>ArtModElim.cs</DependentUpon>
+    <EmbeddedResource Include="FrmAltaArticulo.resx">
+      <DependentUpon>FrmAltaArticulo.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmAltaCategoria.resx">
       <DependentUpon>frmAltaCategoria.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FrmBuscarArticulo.resx">
+      <DependentUpon>FrmBuscarArticulo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmArticulos.resx">
+      <DependentUpon>FrmArticulos.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FrmMarcas.resx">
       <DependentUpon>FrmMarcas.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="MenuArticulos.resx">
-      <DependentUpon>MenuArticulos.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="ArtListar.resx">
-      <DependentUpon>ArtListar.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

@@ -106,13 +106,15 @@ namespace negocio
 
             try
             {
-                datos.setearConsulta(
-                    "DELETE FROM MARCAS WHERE Id = @id"
-                );
-
+                datos.setearConsulta("DELETE FROM MARCAS WHERE Id = @id");
                 datos.setearParametro("@id", id);
-
                 datos.ejecutarAccion();
+            }
+            catch (Exception ex)
+            {
+                throw new Exception(
+                    "Error al eliminar la marca: " + ex.Message
+                );
             }
             finally
             {
@@ -120,4 +122,5 @@ namespace negocio
             }
         }
     }
-}
+}   
+
