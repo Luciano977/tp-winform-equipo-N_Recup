@@ -25,11 +25,18 @@ namespace negocio
 
             try
             {
-                conexion.ConnectionString = @"Server=(localdb)\MSSQLLocalDB;Database=CATALOGO_P3_DB;Integrated Security=True;";
+                conexion.ConnectionString = @"Server=gringo9775\SQLEXPRESS;Database=CATALOGO_P3_DB;Integrated Security=True;";
                 comando.CommandType = System.Data.CommandType.Text;
                 //Esta es la consulta que quiero hacer a la base de datos, para traerme los articulos con sus marcas y categorias
                 //comando.CommandText = "select A.Codigo, A.Nombre, A.Descripcion, M.Descripcion as Marca, C.Descripcion as Categoria, A.Precio from ARTICULOS A left JOIN MARCAS M ON A.IdMarca = M.Id left JOIN CATEGORIAS C ON A.IdCategoria = C.Id";// la consulta que hago a la base de datos
-                comando.CommandText = "select A.Codigo, A.Nombre, A.Descripcion, M.Descripcion AS Marca, C.Descripcion as Categoria, A.Precio, M.Id as IdMarca, C.Id as IdCategoria from ARTICULOS A INNER JOIN MARCAS M ON A.IdMarca = M.Id INNER JOIN CATEGORIAS C ON A.IdCategoria = C.Id;";// la consulta que hago a la base de datos
+                comando.CommandText = @"SELECT A.Id, A.Codigo, A.Nombre, A.Descripcion,
+                                A.Precio, A.IdMarca, A.IdCategoria,
+                               M.Descripcion AS Marca,
+                               C.Descripcion AS Categoria
+                        FROM ARTICULOS A
+                        INNER JOIN MARCAS M ON A.IdMarca = M.Id
+                        INNER JOIN CATEGORIAS C ON A.IdCategoria = C.Id";
+
                 comando.Connection = conexion;
 
                 conexion.Open();
@@ -37,22 +44,28 @@ namespace negocio
 
 
                 while (Lector.Read())
-                { 
+                {
                     Articulos aux = new Articulos();
-                    aux.Codigo = (string)Lector["Codigo"] ;//esta es una forma
+
+                    aux.Id = Convert.ToInt32(Lector["Id"]);
+                    aux.Codigo = (string)Lector["Codigo"];
                     aux.Nombre = (string)Lector["Nombre"];
                     aux.Descripcion = (string)Lector["Descripcion"];
                     aux.Precio = (decimal)Lector["Precio"];
 
-                    //Aqui tengo que hacer un if para agregar imagen
+                    aux.IdMarca = Convert.ToInt32(Lector["IdMarca"]);
+
+                    aux.IdCategoria = Convert.ToInt32(Lector["IdCategoria"]);
+
                     aux.DescMarca = new Marcas();
-                    aux.DescMarca.Id = (int)Lector["IdMarca"];
+                    aux.DescMarca.Id = aux.IdMarca;
                     aux.DescMarca.Descripcion = (string)Lector["Marca"];
+
                     aux.DescCategoria = new Categoria();
-                    aux.DescCategoria.Id = (int)Lector["IdCategoria"];
+
+                    aux.DescCategoria.Id = aux.IdCategoria;
                     aux.DescCategoria.Descripcion = (string)Lector["Categoria"];
 
-                                        
                     lista.Add(aux);
                 }
                 return lista;

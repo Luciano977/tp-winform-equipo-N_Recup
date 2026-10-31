@@ -24,11 +24,21 @@ namespace TPWinForm_EquipoN
 
         private void btModificar_Click(object sender, EventArgs e)
         {
-            Articulos seleccionado;
-            seleccionado = (Articulos)dgvArticulos.CurrentRow.DataBoundItem;
+            if (dgvArticulos.CurrentRow == null)
+            {
+                MessageBox.Show("Seleccione un artículo.");
+                return;
+            }
+
+            Articulos seleccionado =
+
+                (Articulos)dgvArticulos.CurrentRow.DataBoundItem;
+
             FrmAltaArticulo modificar = new FrmAltaArticulo(seleccionado);
+
             modificar.ShowDialog();
-            
+
+            CargarGrilla();
         }
         /*
         private void btListar_Click(object sender, EventArgs e)
